@@ -9,8 +9,7 @@ appEventData.push({
   "event": "User Registered",
     "user": {
         "custKey": "<custKey>",
-        "loginStatus": "<loginStatus>",
-        "system": "<system>"
+        "loginStatus": "<loginStatus>"
     }
 });
 ```
@@ -21,7 +20,6 @@ appEventData.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |custKey|string|Unique identifier of a customer.  Any id's considered PII must be hashed. ||||||||
 |loginStatus|string|Describes the login state of the user|logged in, logged out, guest|||||||
-|system|string|Describes the system that the user is logged into.  \(rarely used\). |admin, shop, member|||||||
 
 
 
