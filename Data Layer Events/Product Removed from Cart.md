@@ -4,7 +4,7 @@
 
 ## Javascript Code
 ```js
-window.appEventData = window.appEventData || [];
+window.appEventData = window.appEventData || [];;;
 appEventData.push({
   "event": "Product Removed from Cart",
     "product": [
