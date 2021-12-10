@@ -4,7 +4,7 @@
 
 ## Javascript Code
 ```js
-window.appEventData = window.appEventData || [];
+window.appEventData = window.appEventData || [];;;
 appEventData.push({
   "event": "Page Load Started",
     "page": {
@@ -13,8 +13,7 @@ appEventData.push({
         "pageType": "<pageType>",
         "platform": "<platform>",
         "siteCountry": "<siteCountry>",
-        "siteCurrency": "<siteCurrency>",
-        "subsection": "<subsection>"
+        "siteCurrency": "<siteCurrency>"
     }
 });
 ```
@@ -29,7 +28,6 @@ appEventData.push({
 |platform|string|The technology platform version of the site that the user is experiencing.||||||||
 |siteCountry|string|Indicates the primary country served by the site. ISO 3166 \(alpha-2\) Uppercase.|US, CA, FR, UK|^[A-Z]{2}$||||||
 |siteCurrency|string|Currency in which prices are displayed.  ISO 4217 \(3 character alpha\), uppercase|USD, CAD, EUR, GBP, CHF|^[A-Z]{3}$||||||
-|subsection|string|First sub-level of hierarchy under pageCategory or Site Section. |Shop &gt; Kids, Shop &gt; Mens, Shop &gt; Womens|||||||
 
 
 
