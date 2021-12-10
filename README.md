@@ -24,7 +24,7 @@
 <p>Make sure you build a version of the library and then test that the JS file is correctly loading on the page.</p>
 <p>For more information refer to the&nbsp;<a target="_blank" href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch.html" title="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch.html">official documentation</a>.</p>
 <h2 id="data-layer">Data Layer</h2>
-<p>Each file inside the&nbsp;<a target="_blank" href="https://github.com/searchdiscovery/mohawk-flooring-dl-spec/blob/main/events" title="https://github.com/searchdiscovery/mohawk-flooring-dl-spec/blob/main/events">events</a>&nbsp;folder corresponds to a single use case or site event that needs to be implemented. These events are leveraged to trigger tracking rules in the tag management tool of choice and share data with the analytics reporting tool.</p>
+<p>Each file inside the&nbsp;events&nbsp;folder corresponds to a single use case or site event that needs to be implemented. These events are leveraged to trigger tracking rules in the tag management tool of choice and share data with the analytics reporting tool.</p>
 <p>As the data layer is event-based, the order in which the events are fired is critical. In general, events should be pushed onto the data layer in the following sequence when a page load (virtual or otherwise) occurs:</p>
 <p>Page Load Started &gt; <em>Other Page-level Events</em> &gt; Page Load Completed</p>
 <p>If an Event is part of the page load sequence, it will be indicated in the corresponding event file.</p>
